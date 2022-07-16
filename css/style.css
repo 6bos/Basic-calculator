@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;700&display=swap');
+
+*{  box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;}
+
+main{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}    
+
+#container{
+    height: 490px;
+    width: 380px;
+}
+
+#container form{
+    width: 100%;
+    height: 100%;
+    background-color:  #2a2a2a;
+    border: 2px solid #2a2a2a;
+    border-radius: 5px;
+    
+}
+
+#container input[type="textfield"]{
+    width: 100%;
+    height: 100px;
+    background-color: #545455 ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 0;
+    font-size: 3em;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+
+#container input[type="button"]{
+    width: 23%;
+    border: 0;
+    margin: 2.5px;
+    font-size: 2.5em;
+    font-weight: 400;
+    padding: 22px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color:  #383838;
+    color: #b7d5e5;
+}
+
+#container input[type="button"]:hover{
+    color:  white;
+    box-shadow: 0 0 5px inset #b7d5e5;
+    transition: 0.2s;
+}
+
+#container input[type="reset"]{
+    width: 24%;
+    font-size: 2.5em;
+    font-weight: 400;
+    padding: 22px;
+    border-radius: 100%;
+    color: #b7d5e5;
+}
+
+#container input.operator{
+    background-color: #044b74;
+}
+
+#container input.equal{
+    background-color: #0946a2;
+}
+
+#container input.c{
+    background-color: #115327;
+    border: 0;
+    color: #97f59f;
+}
+
+#container input.c:hover{
+    color: white;
+    box-shadow: 0 0 5px inset #97f59f;
+    transition: 0.2s;
+}
